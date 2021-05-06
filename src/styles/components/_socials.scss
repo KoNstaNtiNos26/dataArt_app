@@ -1,0 +1,25 @@
+.socials {
+    width: 162px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__fb {
+        width: 44px;
+        height: 44px;
+        background-image: url("/src/images/fb.svg");
+    }
+
+    &__twitter {
+        width: 44px;
+        height: 44px;
+        background-image: url("/src/images/tw.svg");
+    }
+
+    &__instagram {
+        width: 44px;
+        height: 44px;
+        background-image: url("/src/images/ins.svg");
+    }
+}

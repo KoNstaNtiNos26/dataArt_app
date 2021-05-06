@@ -1,0 +1,125 @@
+.text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: $text;
+
+    &--promo {
+        color: #E1E1E1;
+        margin-bottom: 40px;
+    }
+
+    &--video {
+        font-weight: 500;
+        color: $white;
+    }
+
+    &--header {
+        text-decoration: none;
+        color: $white;
+    }
+
+    &--about-us {
+        color: #444444;
+        margin-bottom: 20px;
+    }
+
+    &--about-us::before {
+        content: '';
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+        margin-right: 23px;
+        display: inline-block;
+        background-image: url("/src/images/point.svg");
+    }
+
+    &--about-us-tag {
+        color: $primary;
+        font-size: 20px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    &--logo-footer {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        color: $white;
+    }
+
+    &--logo-header {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        color: $white;
+    }
+
+    &--footer {
+        color: #F5F5F5;
+    }
+
+    &--footer-link {
+        text-decoration: none;
+        line-height: 40px;
+        color: $white;
+    }
+
+    &--footer-contact {
+        font-weight: 500;
+        line-height: 40px;
+        color: $white;
+    }
+
+    &--copyright {
+        font-weight: 300;
+        text-decoration: none;
+        color: $white;
+    }
+}
+
+@media only screen and (max-width: $small) {
+    .text {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    
+        // &--promo {
+            
+        // }
+    
+        &--about-us-tag {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        &--about-us {
+            text-align: left;
+            font-size: 10px;
+        }
+    
+        &--logo-footer {
+            font-size: 36px;
+            line-height: 42px;
+        }
+    
+        &--logo-header {
+            font-size: 30px;
+            line-height: 35px;
+        }
+    
+        &--footer {
+            text-align: left;
+        }
+    
+        &--footer-link {
+            font-size: 12px;
+        }
+    
+        &--footer-contact, &--copyright {
+            font-size: 10px;
+        }
+    }
+}

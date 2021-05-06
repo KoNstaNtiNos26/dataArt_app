@@ -1,0 +1,47 @@
+.page {
+    position: relative;
+
+    &__promo {
+        position: absolute;
+        top: 257px;
+        left:50%;
+        transform:translateX(-50%);
+    }
+
+    &__about-us {
+        margin-top: 173px;
+        margin-bottom: 311px;
+    }
+
+    &__features {
+        margin-top: 98px;
+    }
+
+    &__container {
+        position: absolute;
+        top: 2550px;
+        left:50%;
+        transform:translateX(-50%);
+    }
+}
+
+@media only screen and (max-width: $small) {
+    .page {
+        &__promo {
+            top: 300px;
+        }
+
+        &__features {
+            margin-top: 0;
+        }
+
+        &__about-us {
+            margin: 50px auto;
+        }
+
+        &__container {
+            top: 3250px;
+        }
+    }
+}
+

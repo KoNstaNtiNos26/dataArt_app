@@ -1,0 +1,44 @@
+.about-us {
+    
+    &__header {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 54px;
+        /* or 117% */
+
+
+        color: #171614;
+    }
+
+    &__content {
+        height: 590px;
+    }
+
+    &__avatar {
+        width: 470px;
+        height: 571px;
+    }
+
+    &__list {
+        margin: 38px 0 48px 0;
+    }
+}
+
+@media only screen and (max-width: $small) {
+    .about-us {
+
+        &__avatar {
+            width: 70%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+
+        &__content {
+            margin-top: 30px;
+        }
+    }
+}

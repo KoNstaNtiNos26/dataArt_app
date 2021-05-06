@@ -1,0 +1,21 @@
+.logo {
+    width: 116px;
+    height: 39px;
+    order: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__img {
+        display: inline-block;
+        width: 40px;
+        height: 38px;
+        background: url("/src/images/logo.svg");
+    }
+
+    &--footer {
+        width: 133px;
+        height: 42px;
+        margin-bottom: 26px;
+    }
+}
+
